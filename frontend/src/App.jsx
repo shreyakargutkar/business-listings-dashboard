@@ -28,7 +28,6 @@ function App() {
   const [categoryData, setCategoryData] = useState([]);
   const [sourceData, setSourceData] = useState([]);
   const [loading, setLoading] = useState(true);
-git push -u origin main
   useEffect(() => {
     fetchData();
   }, []);
